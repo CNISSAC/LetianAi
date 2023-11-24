@@ -1,0 +1,170 @@
+/*Style for introduction*/
+#self-introduction {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+#self-introduction .intro-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically at the center */
+}
+
+#self-introduction .profile-photo {
+    width: 100px;
+  
+    border-radius: 50%; /* Makes the image circular */
+    margin-left: 60px;
+}
+
+#self-introduction p {
+    text-align: justify;
+    margin: 10px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; /* Adjust the font family as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+a {
+    color: blue;
+    text-decoration: none; /* Removes underline */
+  }
+
+a:hover {
+text-decoration: underline; /* Adds underline on hover for user feedback */
+}
+/* Style for the projects section */
+#selected-projects {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Style for the project items container */
+  #selected-projects .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  /* Style for each project item */
+  #selected-projects .project-item {
+    background: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  #selected-projects .project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  /* Style for project images */
+  #selected-projects .project-item img {
+    width: 400px;
+    height: auto;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  /* Style for project titles */
+  #selected-projects .project-item h3 {
+    color: #333;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    margin: 0;
+  }
+  
+  /* Style for project descriptions */
+  #selected-projects .project-item p {
+    padding: 0 1rem 1rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Style for project links */
+  #selected-projects .project-item a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #selected-projects .project-item a:hover {
+    background-color: #003d82;
+  }
+
+  /* CSS to control the project styles */
+#project-description{
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1200px;
+  }
+  
+  #project-description h2 {
+    margin: 20px;
+    padding: 0;
+  }
+  
+#project-description p {
+    text-align: justify;
+    margin: 10px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; /* Adjust the font family as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+  #project-description .image-container {
+    text-align: center; /* Centering images within the container */
+}
+
+#project-description .image-container img {
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Display images inline */
+    margin: 5px; /* Optional: adds some space around each image */
+}
+  #project-description .project-poster {
+  display: block; /* This makes sure the image is treated as a block-level element */
+  margin: 20 auto; /* This sets the top and bottom margins to 0 and left and right margins to auto, which centers the image */
+  height: auto; /* This will maintain the aspect ratio */
+  max-width: 600px; /* This will ensure the image doesn't exceed a width of 400px */
+}
+
+#project-description .project-poster:hover {
+  transform: scale(1.1); /* This will increase the size of the image by 10% when hovered over */
+  transition: transform 0.3s ease-in-out; /* This will give the scaling a smooth effect */
+}
+
+#project-description .video-container {
+    text-align: center; /* Centering images within the container */
+}
+
+#project-description .video-container video {
+    width: 40%; /* Adjust the width as needed */
+    display: inline-block; /* Display images inline */
+    margin: 5px; /* Optional: adds some space around each image */
+}
+
+#project-description .citations-container {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+#project-description .citations-container p {
+    font-family: 'Times New Roman', Times, serif; /* Adjust the font family as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+}
