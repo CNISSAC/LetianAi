@@ -66,8 +66,8 @@ text-decoration: underline; /* Adds underline on hover for user feedback */
   
   /* Style for project images */
   #selected-projects .project-item img {
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 260px;
     border-bottom: 1px solid #e1e1e1;
   }
   
